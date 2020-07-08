@@ -18,6 +18,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>     
+        <script defer src="pass.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -487,6 +488,17 @@
 										<li><input type="submit" value="Players set 2" class="primary" /></li>
 					 </ul>
                      </form>
+        <form action="/" method="GET" id="form">
+            <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text">
+            </div>
+              <div>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="text">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
     </body>
                 
       <div style="text-align: center;margin-top: 2em;">
@@ -494,7 +506,7 @@
                 </div>
 			
 		<!-- Scripts -->
-             <script>function myFunction(){alert("Your Bid has been successfully placed");}</script>
+            <script>function myFunction(){alert("Your Bid has been successfully placed");}</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
